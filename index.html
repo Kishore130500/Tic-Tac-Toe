@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tik-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+  </style>
+</head>
+<body>
+  <div id="top">
+    <div id="x" class="chance" style="text-align: left; background-color: rgb(54, 66, 18); float: left; "><h1  id="x_chance" ></h1></div>
+    <div id = "y" class="chance" style="text-align: right; background-color: rgb(74, 60, 82); float: left;"><h1  id="y_chance" ></h1></div>
+  </div>
+
+  <div id="game-container">
+  <div id="game">
+  <table>
+    <tbody>
+       <tr>
+        <td id="1" onclick="setvalue(1)"></td>
+        <td id="2" onclick="setvalue(2)"></td>
+        <td id="3" onclick="setvalue(3)"></td>
+      </tr>
+      <tr>
+        <td id="4" onclick="setvalue(4)"></td>
+        <td id="5" onclick="setvalue(5)"></td>
+        <td id="6" onclick="setvalue(6)"></td>
+      </tr>
+      <tr>
+        <td id="7" onclick="setvalue(7)"></td>
+        <td id="8" onclick="setvalue(8)"></td>
+        <td id="9" onclick="setvalue(9)"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div style=" display: flex; justify-content: center;align-items: center;">
+  <a href="index.html"> <button class="btn-62"><span>Reset</span></button> </a>
+</div>
+
+</div>
+
+
+
+  <script src="script.js">  </script>
+</body>
+</html>
