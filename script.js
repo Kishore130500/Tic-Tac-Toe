@@ -1,6 +1,6 @@
 let chance = 1;
 if (chance == 1){
-    //alert("Lets Start!");
+    alert("Lets Start!");
     document.getElementById("x_chance").innerHTML = "X";
     document.getElementById("y").style.background= "#000000";
 
