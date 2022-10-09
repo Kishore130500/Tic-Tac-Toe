@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@800&display=swap');
+
 body{
     background-color: #000000;
     height: 100vh;
@@ -9,13 +11,14 @@ body{
     height:50vh;
   }
   td{
-    border: solid 1px white;
-    border-collapse: collapse;
+    border: solid 4px white;
     width: 33.33%;
     height:33.33%;
     color: #ffffff;
     padding: 5px;
     text-align: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 2.5vw;
   }
   td:hover{
     background-color: rgb(2, 12, 52);
@@ -37,7 +40,6 @@ body{
   }
   #game-container{
     height: 80vh;
-
   }
   #game{
     padding-top: 20px;
@@ -54,6 +56,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Baloo Bhaina 2', cursive;
   }
   .btn-62,
   .btn-62 *,
